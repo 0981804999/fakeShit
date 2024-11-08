@@ -1,0 +1,35 @@
+/* Đặt nền cho trang web */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+/* Khung hiển thị số */
+.number-display {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Định dạng nút bấm */
+button {
+    padding: 15px 30px;
+    font-size: 1.5em;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: darkred;
+}
